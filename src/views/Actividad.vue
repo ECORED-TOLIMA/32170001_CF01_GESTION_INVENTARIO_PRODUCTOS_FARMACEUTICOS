@@ -15,292 +15,313 @@ export default {
     cuestionario: {
       tema: 'tema_actividad_didactica',
       titulo: 'Cuestionario',
-      introduccion: 'texto_introductorio_actividad_didactica',
+      introduccion:
+        'Evaluar la comprensión de los conceptos fundamentales relacionados con la gestión, conservación y normativa aplicable al almacenamiento de productos farmacéuticos mediante una actividad de verdadero o falso.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
-          texto: 'texto_pregunta',
+          texto:
+            'El almacenamiento adecuado de productos farmacéuticos, no afecta la seguridad del paciente.  ',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
-          texto: 'texto_pregunta',
+          texto:
+            'El INVIMA regula los procesos de conservación y dispensación de medicamentos.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: 'texto_pregunta',
+          texto:
+            'Las farmacias o droguerías se dedican exclusivamente a la fabricación de medicamentos.  ',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
-          texto: 'texto_pregunta',
+          texto:
+            'Las Buenas Prácticas de Almacenamiento (BPA), son opcionales para los servicios farmacéuticos habilitados.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto: 'texto_pregunta',
+          texto:
+            'El Decreto 2200 de 2005 regula la operación de los servicios farmacéuticos en Colombia.  ',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto: 'texto_pregunta',
+          texto:
+            'El servicio farmacéutico hospitalario tiene como función la venta al público general.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
-          texto: 'texto_pregunta',
+          texto:
+            'La rotación de inventario mediante métodos como PEPS y FEFO, es parte de la gestión adecuada.  ',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
-          texto: 'texto_pregunta',
+          texto:
+            'El control de trazabilidad es irrelevante en la gestión de inventario farmacéutico.  ',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
-          texto: 'texto_pregunta',
+          texto:
+            'Los depósitos de medicamentos distribuyen directamente al usuario final.  ',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto: 'texto_pregunta',
+          texto:
+            'La Resolución 1403 de 2007 no aplica a los servicios farmacéuticos privados.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto: 'texto_pregunta',
+          texto:
+            'Un adecuado manejo del inventario mejora la eficiencia del servicio.  ',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
-          texto: 'texto_pregunta',
+          texto:
+            'La zonificación del almacén no influye en la seguridad del medicamento.  ',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
-          texto: 'texto_pregunta',
+          texto:
+            'Los servicios farmacéuticos no requieren personal capacitado.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
-          texto: 'texto_pregunta',
+          texto:
+            'Los laboratorios farmacéuticos hacen parte del sector productivo del sector farmacéutico colombiano.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto: 'texto_pregunta',
+          texto:
+            'Los medicamentos con condiciones especiales de conservación, deben almacenarse junto con el resto del inventario general.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 16,
-          texto: 'texto_pregunta',
+          texto:
+            'Los medicamentos fotosensibles pueden almacenarse bajo luz artificial si están rotulados correctamente.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 17,
-          texto: 'texto_pregunta',
+          texto:
+            'La zona de cuarentena se utiliza para almacenar medicamentos vencidos y deteriorados antes de su disposición final.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 18,
-          texto: 'texto_pregunta',
+          texto:
+            'La metodología FEFO garantiza que se utilicen primero los medicamentos con la fecha de vencimiento más próxima.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
-          texto: 'texto_pregunta',
+          texto:
+            'El registro sanitario del INVIMA, es obligatorio para todos los medicamentos que se comercialicen en Colombia.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 20,
-          texto: 'texto_pregunta',
+          texto:
+            'Las Buenas Prácticas de Almacenamiento (BPA) permiten conservar los productos farmacéuticos en condiciones seguras, higiénicas y controladas.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un adecuado dominio de los conceptos clave sobre la gestión y almacenamiento de productos farmacéuticos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado:
-        '¡Excelente! Lo felicito, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+        '¡Excelente! Felicitaciones, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
