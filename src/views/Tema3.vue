@@ -103,11 +103,11 @@
         .p-2
           h3.mb-0.ms-3 Temperatura
 
-    .row.justify-content-center.tarjeta--BG07.px-md-5.px-4
+    .row.justify-content-center.tarjeta--BG07.px-md-4.px-4
       .col-lg-10.col-12
         .row.justify-content-center.mb-5(data-aos="flip-up")
           .col-lg-7.col-12.order-lg-1.order-2
-            p(data-aos="fade-down") La mayoría de los productos farmacéuticos deben conservarse a temperatura ambiente controlada, usualmente entre 15 °C y 30 °C, dependiendo de las especificaciones del fabricante y la normativa vigente. El control de este parámetro debe realizarse de manera continua, utilizando equipos de medición calibrados como termómetros digitales, sensores electrónicos o sistemas automatizados con registro gráfico (data loggers).
+            p(data-aos="fade-down") La mayoría de los productos farmacéuticos deben conservarse a temperatura ambiente controlada, usualmente entre 15 °C y 30 °C, dependiendo de las especificaciones del fabricante y la normativa vigente. El control de este parámetro debe realizarse de manera continua, utilizando equipos de medición calibrados como termómetros digitales, sensores electrónicos o sistemas automatizados con registro gráfico (<em>data loggers</em>).
             p(data-aos="fade-down") Para productos que requieren cadena de frío, como vacunas, insulinas o ciertos antibióticos biotecnológicos, se deben mantener en un rango estricto entre 2 °C y 8 °C. Estos productos deben almacenarse en neveras o cuartos fríos especiales para uso farmacéutico, con sistemas de alarma en caso de variaciones de temperatura, respaldo de energía eléctrica y protocolos de contingencia.
           .col-lg-5.col-md-7.col-12.mb-3.order-lg-2.order-1.mb-lg-0
             .row.justify-content-center(data-aos="flip-up")
@@ -148,29 +148,29 @@
     
     p.mb-5(data-aos="fade-down") La distribución interna del almacén de productos farmacéuticos responde a principios de organización, seguridad, eficiencia operativa y cumplimiento normativo. Un diseño adecuado del espacio no solo facilita el acceso y control de los medicamentos, sino que también reduce los riesgos de errores, contaminación cruzada y pérdidas por vencimiento o deterioro. A continuación, se describen los objetivos de una buena distribución interna:
 
-    .row.justify-content-center.mb-5(data-aos="flip-up")
+    .row.justify-content-center.px-md-4.px-4.mb-5(data-aos="flip-up")
       .col-lg-10.col-12
         .row.justify-content-center
           .col-lg-8.col-12.order-lg-2.order-2
-            .cajon.cajon.C01.p-4.mb-3
+            .cajon.cajon.C01.p-3
               ol.lista-ol--cuadro.lista-ol--separador
-                li 
+                li.mb-2 
                   .lista-ol--cuadro__vineta
                     span.text-bold 1
                   | Optimizar el flujo de entrada, almacenamiento y salida de productos.
-                li 
+                li.mb-2 
                   .lista-ol--cuadro__vineta
                     span.text-bold 2
                   | Evitar la mezcla de productos conformes y no conformes.
-                li 
+                li.mb-2 
                   .lista-ol--cuadro__vineta
                     span.text-bold 3
                   | Aplicar correctamente los métodos de rotación como PEPS (Primero en Entrar, Primero en Salir) y FEFO (Primero en Vencer, Primero en Salir), según el tipo de producto y sus condiciones de caducidad.
-                li 
+                li.mb-2 
                   .lista-ol--cuadro__vineta
                     span.text-bold 4
                   | Facilitar la trazabilidad, inspección y limpieza.
-                li 
+                li.mb-1 
                   .lista-ol--cuadro__vineta
                     span.text-bold 5
                   | Cumplir con las Buenas Prácticas de Almacenamiento (BPA).
@@ -196,7 +196,7 @@
                 th(data-aos="fade-down")(style= "width: 25%") Ejemplo práctico
             tbody
               tr
-                td.text-bold(data-aos="fade-down") Psicotrópicos/estupefacientes
+                td.text-bold(data-aos="fade-down") Recepción
                 td(data-aos="fade-down") Verificación física y documental de los productos al llegar.
                 td(data-aos="fade-down") Revisión de la factura, número de lote y fecha de vencimiento.
               tr
@@ -227,7 +227,7 @@
                 td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") Psicotrópicos/estupefacientes
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Zona segura con control de acceso.
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Caja fuerte con doble llave y libro de control oficial.
-        figcaption Referencia Tabla - Norma APA
+        //-figcaption Referencia Tabla - Norma APA
 
     p.mb-5(data-aos="fade-down") Para garantizar una operación segura y eficiente en el almacén farmacéutico, es fundamental implementar ciertas medidas que favorezcan la organización, el acceso y la conservación de los productos. Estas recomendaciones prácticas contribuyen a minimizar errores, facilitar el control y optimizar el espacio disponible, siempre en cumplimiento de la normativa vigente y las Buenas Prácticas de Almacenamiento. A continuación, se presentan algunas pautas clave para una distribución interna adecuada:
 
@@ -355,6 +355,16 @@
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Instrucciones de conservación o higiene.
 
     p(data-aos="fade-down") El flujo interno en un almacén farmacéutico debe estar organizado para minimizar errores y garantizar la trazabilidad. Idealmente, los productos deben seguir esta secuencia:
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12(data-aos="fade-right")
+        figure.desktop
+          img(src='@/assets/curso/temas/tema3/img21.svg', alt='Imagen decorativa')
+
+      .col-12
+        figure.movil
+          img(src='@/assets/curso/temas/tema3/img21_.svg', alt='Imagen decorativa')
+
     p.mb-5(data-aos="fade-down") Las áreas especiales como neveras para productos refrigerados, cajas fuertes para psicotrópicos y estupefacientes, y zonas de disposición final deben estar claramente diferenciadas, señalizadas. Por ejemplo, en rojo para productos inservibles y ubicadas de forma que no interfieran con el flujo general. Se recomienda el uso de flechas verdes en el piso o paredes para indicar los flujos de desplazamiento y rótulos grandes y visibles para identificar cada zona del almacén. Esta organización mejora la seguridad, facilita las inspecciones y cumple con los lineamientos de las Buenas Prácticas de Almacenamiento (BPA).
 
     .row.justify-content-center.mb-0
@@ -424,31 +434,31 @@
     .row.mb-5(data-aos="flip-up")
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
-          .col-6
+          .col-4
             img(src='@/assets/curso/temas/tema3/img29.svg' alt='AvatarTop')
-        h4.text-center Nominal
-        p.text-center Variables categóricas sin un orden definido, como los nombres de ciudades.
+        h4.text-center Psicotrópicos y estupefacientes
+        p.text-center Almacenados en cajas fuertes con doble control de acceso.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
-          .col-6
+          .col-4
             img(src='@/assets/curso/temas/tema3/img30.svg' alt='AvatarTop')
-        h4.text-center Ordinal 
-        p.text-center Categorías con jerarquía, como los niveles de satisfacción (bajo, medio, alto).
+        h4.text-center Citotóxicos y medicamentos peligrosos
+        p.text-center Ubicados en áreas con señalización de riesgo biológico.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
-          .col-6
+          .col-4
             img(src='@/assets/curso/temas/tema3/img31.svg' alt='AvatarTop')
-        h4.text-center Intervalo 
-        p.text-center Variables numéricas sin un cero absoluto, como la temperatura en grados Celsius.
+        h4.text-center Fotosensibles
+        p.text-center Protegidos de la luz directa.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
-          .col-6
+          .col-4
             img(src='@/assets/curso/temas/tema3/img31.svg' alt='AvatarTop')
-        h4.text-center Razón 
-        p.text-center Variables numéricas con cero absoluto, como los ingresos o el tiempo.
+        h4.text-center Productos de cadena de frío
+        p.text-center Mantenidos entre 2 y 8 °C en refrigeradores certificados.
 
 </template>
 

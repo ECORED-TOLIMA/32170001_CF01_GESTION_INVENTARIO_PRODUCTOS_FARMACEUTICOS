@@ -107,25 +107,25 @@
     .row.mb-5(data-aos="flip-up")
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
-          .col-6
+          .col-4
             img(src='@/assets/curso/temas/tema6/img13.svg' alt='AvatarTop')
         p.text-center Revisar que toda la información esté legible y completa.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
-          .col-6
+          .col-4
             img(src='@/assets/curso/temas/tema6/img14.svg' alt='AvatarTop')
         p.text-center Comparar los datos de la factura con los de la orden de compra y con los productos físicos.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
-          .col-6
+          .col-4
             img(src='@/assets/curso/temas/tema6/img15.svg' alt='AvatarTop')
         p.text-center Registrar cualquier diferencia, inconsistencia o hallazgo en el formato de recepción o acta de no conformidad si aplica.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
-          .col-6
+          .col-4
             img(src='@/assets/curso/temas/tema6/img16.svg' alt='AvatarTop')
         p.text-center No firmar la conformidad de la recepción hasta haber realizado la verificación documental y física completa.
 
@@ -232,7 +232,7 @@
       .col-12
         .row.justify-content-center.align-items-center
           .col-lg-8.col-12.order-lg-2.order-2
-            .cajon.cajon.C01.p-4
+            .cajon.cajon.C01.p-3
               ul.lista-ul--color.mb-0
                 li 
                   i.fas.fa-chevron-right
@@ -261,7 +261,7 @@
                 li 
                   i.fas.fa-chevron-right
                   | Observaciones relevantes (estado del empaque, condiciones de transporte, temperatura si aplica).
-                li
+                li.mb-0
                   i.fas.fa-chevron-right
                   | Firma del responsable del área farmacéutica.
           .col-lg-4.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0
@@ -275,25 +275,25 @@
     .row.mb-5(data-aos="flip-up")
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
-          .col-6
+          .col-4
             img(src='@/assets/curso/temas/tema6/img25.svg' alt='AvatarTop')
         p.text-center Establece una evidencia documental obligatoria ante auditorías internas o externas.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
-          .col-6
+          .col-4
             img(src='@/assets/curso/temas/tema6/img26.svg' alt='AvatarTop')
         p.text-center Facilita el seguimiento de lotes, fechas de vencimiento y movimientos de inventario.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
-          .col-6
+          .col-4
             img(src='@/assets/curso/temas/tema6/img27.svg' alt='AvatarTop')
         p.text-center Contribuye a la seguridad del paciente, al prevenir el ingreso de productos no conformes.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
-          .col-6
+          .col-4
             img(src='@/assets/curso/temas/tema6/img28.svg' alt='AvatarTop')
         p.text-center Favorece la gestión de riesgos en la cadena de suministro.
 

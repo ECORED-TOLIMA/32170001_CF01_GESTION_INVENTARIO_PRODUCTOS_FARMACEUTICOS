@@ -101,7 +101,7 @@
 
     .row.justify-content-center.px-md-5.px-4
       .col-lg-11.col-12
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.align-items-center.mb-5
           .col-lg-7.col-12.order-lg-2.order-2
             .row
               .bloque-texto-b.color-primario.p-4
@@ -164,24 +164,24 @@
           .bottomCircle.mb-5
             figure
               img(src="@/assets/curso/temas/tema5/img08.svg", alt="Imagen decorativa").img130.m-auto
-          h4.text-center Farmacias o droguerías
-          p.mb-0 Enfocadas en venta al público con o sin prescripción.
+          h4.text-center Producto con nombre correcto, pero concentración errada
+          p.mb-0 No conforme.
 
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad(data-aos="flip-left")
           .bottomCircle.mb-5
             figure
               img(src="@/assets/curso/temas/tema5/img09.svg", alt="Imagen decorativa").img130.m-auto
-          h4.text-center Depósitos de medicamentos
-          p.mb-0 Distribución mayorista.
+          h4.text-center Caja con abolladuras y sello roto
+          p.mb-0 Debe evaluarse, posible cuarentena o devolución.
 
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad(data-aos="flip-left")
           .bottomCircle.mb-5
             figure
               img(src="@/assets/curso/temas/tema5/img10.svg", alt="Imagen decorativa").img130.m-auto
-          h4.text-center Servicios farmacéuticos hospitalarios
-          p.mb-0 Dispensación para pacientes hospitalizados.
+          h4.text-center Viales refrigerados entregados sin control térmico
+          p.mb-0 Rechazo inmediato por ruptura de cadena de frío.
 
     p.mb-5(data-aos="fade-down") Para llevar a cabo una inspección física y técnica eficaz, es fundamental contar con herramientas que faciliten la verificación detallada de los productos y el registro de hallazgos. Estos instrumentos permiten asegurar la trazabilidad del proceso y respaldar las decisiones tomadas durante la recepción:
 
@@ -250,22 +250,22 @@
           .col-lg-8.col-12.order-lg-2.order-2
             .cajon.cajon.C01.p-4.mb-3
               ul.lista-ul--color
-                li 
+                li.mb-4 
                   i.fas.fa-chevron-right
                   | Nombre y concentración del producto.
-                li 
+                li.mb-4 
                   i.fas.fa-chevron-right
                   | Cantidad recibida.
-                li 
+                li.mb-4 
                   i.fas.fa-chevron-right
                   | Lote y fecha de vencimiento.
-                li 
+                li.mb-4 
                   i.fas.fa-chevron-right
                   | Condiciones especiales de almacenamiento (refrigeración, fotosensibilidad o control especial).
-                li 
+                li.mb-0 
                   i.fas.fa-chevron-right
                   | Observaciones durante la inspección.
-          .col-lg-3.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0
+          .col-lg-4.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0
             .row.justify-content-center(data-aos="flip-up")
               .col
                 figure
@@ -310,7 +310,7 @@
       .col-lg-8.col-12
         .row.justify-content-center.align-items-center
           .col-lg-7.col-12.order-lg-1.order-2
-            .cajon.cajon.C01.p-4.mb-3
+            .cajon.cajon.C01.p-4
               ul.lista-ul--color
                 li 
                   i.fas.fa-chevron-right
@@ -324,7 +324,7 @@
                 li.mb-0 
                   i.fas.fa-chevron-right
                   | Acciones tomadas o recomendadas.
-          .col-lg-5.col-md-7.col-12.mb-3.order-lg-2.order-1.mb-lg-0
+          .col-lg-5.col-md-7.col-12.order-lg-2.order-1.mb-lg-0
             .row.justify-content-center(data-aos="flip-up")
               .col
                 figure

@@ -135,7 +135,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mb-5
           .col-lg-7.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0
             LineaTiempoD.color-acento-botones.especial
               .row(numero="1" titulo="Claro")
@@ -160,6 +160,36 @@
           .col-lg-5.col-sm-4.col-5.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/tema7/img09.png', alt='Imagen decorativa')
+
+        p.text-center.mb-5(data-aos="fade-down") En este punto es importante destacar las buenas prácticas para el ingreso de productos al sistema:
+
+        .row.justify-content-center.align-items-center
+          .col-lg-8.col-12.order-lg-1.order-2
+            .cajon.cajon.C01.p-4
+              ul.lista-ul--color.mb-0
+                li 
+                  img(src="@/assets/curso/temas/ico01.svg", alt="imagen decorativa", style="width: 12px; margin-right: 10px; vertical-align: middle;")
+                  | Solo registrar productos que hayan pasado satisfactoriamente la inspección documental y física.
+                li 
+                  img(src="@/assets/curso/temas/ico01.svg", alt="imagen decorativa", style="width: 12px; margin-right: 10px; vertical-align: middle;")
+                  | Verificar que la cantidad ingresada coincida con la cantidad aprobada.
+                li 
+                  img(src="@/assets/curso/temas/ico01.svg", alt="imagen decorativa", style="width: 12px; margin-right: 10px; vertical-align: middle;")
+                  | Validar que los lotes, fechas y demás datos estén correctamente registrados.
+                li
+                  img(src="@/assets/curso/temas/ico01.svg", alt="imagen decorativa", style="width: 12px; margin-right: 10px; vertical-align: middle;")
+                  | Ingresar productos con condiciones especiales (refrigerados, citotóxicos, controlados) en sus módulos correspondientes dentro del sistema.
+                li 
+                  img(src="@/assets/curso/temas/ico01.svg", alt="imagen decorativa", style="width: 12px; margin-right: 10px; vertical-align: middle;")
+                  | Respaldar la información con la documentación soporte: formato de recepción, factura, orden de compra, certificado de calidad.
+                li
+                  img(src="@/assets/curso/temas/ico01.svg", alt="imagen decorativa", style="width: 12px; margin-right: 10px; vertical-align: middle;")
+                  | Generar reportes de ingreso y firmarlos como constancia del procedimiento.
+          .col-lg-4.col-md-7.col-12.mb-3.order-lg-2.order-1.mb-lg-0
+            .row.justify-content-center(data-aos="flip-up")
+              .col
+                figure
+                  img(src='@/assets/curso/temas/tema7/img10.svg', alt='Imagen decorativa')
 
     p.mb-0(data-aos="fade-down") Una adecuada gestión del registro e ingreso fortalece el control del inventario, facilita la toma de decisiones operativas y garantiza la calidad del servicio farmacéutico.
 

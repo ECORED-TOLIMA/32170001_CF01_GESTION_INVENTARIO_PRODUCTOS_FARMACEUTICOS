@@ -21,10 +21,10 @@
     .row.justify-content-center.tarjeta--BG07.px-md-5.px-4
       .col-12
         .row.justify-content-center.mb-5(data-aos="flip-up")
-          .col-lg-7.col-12.order-lg-1.order-2
+          .col-lg-8.col-12.order-lg-1.order-2
             p(data-aos="fade-down") En los servicios farmacéuticos, una gestión eficiente del inventario es clave para garantizar la disponibilidad, calidad y seguridad de los productos farmacéuticos. Uno de los aspectos fundamentales de esta gestión es la correcta rotación de los medicamentos, que permite minimizar el riesgo de vencimientos, reducir pérdidas económicas y asegurar el cumplimiento de las normativas sanitarias. La rotación implica determinar el orden en que los productos deben ser utilizados o dispensados, de acuerdo con su fecha de ingreso, vencimiento o condición específica. Para ello, existen diferentes métodos logísticos que orientan la toma de decisiones, cada uno con sus propias ventajas, limitaciones y niveles de aplicabilidad dentro del ámbito farmacéutico.
             p(data-aos="fade-down") La elección del método adecuado depende del tipo de producto, su vida útil, los requerimientos normativos y las políticas internas del establecimiento. A continuación, se presentan los principales métodos utilizados en la rotación de productos farmacéuticos, con una descripción clara de su funcionamiento, aplicación práctica y nivel de recomendación en el contexto sanitario:
-          .col-lg-5.col-md-7.col-12.mb-3.order-lg-2.order-1.mb-lg-0
+          .col-lg-4.col-md-7.col-12.mb-3.order-lg-2.order-1.mb-lg-0
             .row.justify-content-center(data-aos="flip-up")
               .col
                 figure
@@ -66,7 +66,7 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.2 Productos con requerimientos especiales
 
-    p.mb-5(data-aos="fade-down") El control de temperatura y humedad es uno de los pilares fundamentales en la gestión del almacén farmacéutico, ya que garantiza la estabilidad, eficacia y seguridad de los productos durante su almacenamiento. Las condiciones ambientales inadecuadas pueden alterar la composición química, reducir la vida útil o anular los efectos terapéuticos de los medicamentos. Por esta razón, el cumplimiento estricto de los parámetros establecidos en las Buenas Prácticas de Almacenamiento (BPA) es obligatorio para todos los establecimientos farmacéuticos.
+    p.mb-5(data-aos="fade-down") En el entorno farmacéutico, no todos los productos pueden ser almacenados y manipulados bajo condiciones estándar. Existen medicamentos y dispositivos médicos que, por su naturaleza físico-química, su sensibilidad a factores ambientales o su potencial riesgo para la salud pública, requieren una gestión diferenciada y protocolos estrictos de conservación, rotación y control. Estos productos, conocidos como productos con requerimientos especiales, incluyen desde vacunas y biológicos que requieren cadena de frío, hasta medicamentos fotosensibles, psicotrópicos, citotóxicos y productos de preparación extemporánea.
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-12
@@ -171,29 +171,29 @@
         .p-2
           h3.mb-0.ms-3 b) Rotación efectiva del inventario:
 
-    .row.justify-content-center.mb-5(data-aos="flip-up")
+    .row.justify-content-center.px-md-4.px-4.mb-5(data-aos="flip-up")
       .col-lg-11.col-12
-        .row.justify-content-center.align-items-center.mb-4
+        .row.justify-content-center.align-items-center
           .col-lg-7.col-12.order-lg-2.order-2
-            .cajon.cajon.C01.p-4.mb-3
+            .cajon.cajon.C01.p-3
               ol.lista-ol--cuadro.lista-ol--separador
-                li 
+                li.mb-1 
                   .lista-ol--cuadro__vineta
                     span.text-bold 1
                   | Aplicar el método FEFO (First Expired, First Out) como principio general, especialmente para productos con vencimiento corto o sensibles.
-                li 
+                li.mb-0 
                   .lista-ol--cuadro__vineta
                     span.text-bold 2
                   | PEPS (Primeras Entradas, Primeras Salidas) puede aplicarse en productos con larga vida útil y fechas similares.
-                li 
+                li.mb-0 
                   .lista-ol--cuadro__vineta
                     span.text-bold 3
                   | Evitar el uso de LIFO (Last In, First Out) en contextos farmacéuticos, ya que puede generar acumulación de productos próximos a vencer.
-                li 
+                li.mb-0 
                   .lista-ol--cuadro__vineta
                     span.text-bold 4
                   | Etiquetar claramente con fecha de vencimiento visible: usar marcadores de colores o cintas para alertar sobre productos próximos a caducar (por ejemplo, cinta roja para vencimientos menores a 3 meses).
-                li
+                li.mb-0
                   .lista-ol--cuadro__vineta
                     span.text-bold 5
                   | Organizar los productos por lotes y fechas para facilitar inspecciones visuales rápidas y prevenir errores de dispensación.
@@ -214,7 +214,7 @@
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-11.col-12
         .row.justify-content-center.align-items-center
-          .col-lg-8.col-12.order-lg-1.order-2
+          .col-lg-9.col-12.order-lg-1.order-2
             .cajon.cajon.C01.p-4.mb-3
               ul.lista-ul--color
                 li 
@@ -229,7 +229,7 @@
                 li.mb-0
                   img(src="@/assets/curso/temas/ico01.svg", alt="imagen decorativa", style="width: 12px; margin-right: 10px; vertical-align: middle;")
                   | Incorporar auditorías internas y externas que permitan identificar fallas, riesgos o áreas de mejora en la gestión del inventario.
-          .col-lg-4.col-md-7.col-12.mb-3.order-lg-2.order-1.mb-lg-0
+          .col-lg-3.col-md-7.col-12.mb-3.order-lg-2.order-1.mb-lg-0
             .row.justify-content-center(data-aos="flip-up")
               .col
                 figure
