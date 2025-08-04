@@ -52,7 +52,7 @@
 
         .row.justify-content-center.p-4
           .col-lg-7.order-lg-1.order-2
-            h4 
+            h4 Protocolos esenciales
             ul.lista-ul.mb-3(data-aos="fade-right")
               li
                 i.lista-ul__vineta
@@ -72,7 +72,7 @@
 
         .row.justify-content-center.p-4
           .col-lg-7.order-lg-1.order-2
-            h4 
+            h4 Recomendaciones para una distribución segura
             ul.lista-ul.mb-3(data-aos="fade-right")
               li
                 i.lista-ul__vineta
