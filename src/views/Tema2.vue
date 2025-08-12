@@ -25,7 +25,7 @@
     p(data-aos="fade-down") El INVIMA es la entidad encargada de proteger y promover la salud pública mediante la regulación sanitaria de productos como medicamentos, alimentos, cosméticos, suplementos dietarios, dispositivos médicos y otros productos de interés sanitario.
     p.mb-5(data-aos="fade-down") Entre sus funciones más relevantes en el contexto farmacéutico se destacan:
 
-    .row.cajon.BG04.align-items-center.pt-3.mb-5
+    .row.cajon.BG04.align-items-center.pt-lg-3.py-3.mb-5
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center
           .col-md-6.col-lg-4.mb-4.mb-md-0.d-lg-flex.d-none(data-aos="fade-right")
@@ -144,7 +144,7 @@
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col
         .tarjeta--container.row.mb-5
-          .col-xl.col-md-4.tarjeta.tarjeta--C02.p-5
+          .col-xl.col-lg-4.tarjeta.tarjeta--C02.p-5
             .row.justify-content-center.mb-3
               .col-lg-5.col-6
                 figure
@@ -153,7 +153,7 @@
             h4.text-center Buenas Prácticas de Manufactura (BPM)
             p.mb-0 Aseguran que el producto sea elaborado bajo condiciones higiénicas, con validación de procesos, materias primas controladas y personal capacitado.
 
-          .col-xl.col-md-4.tarjeta.tarjeta--C03.p-5
+          .col-xl.col-lg-4.tarjeta.tarjeta--C03.p-5
             .row.justify-content-center.mb-3
               .col-lg-5.col-6
                 figure
@@ -162,7 +162,7 @@
             h4.text-center Buenas Prácticas de Almacenamiento (BPA)
             p.mb-0 Establecen condiciones para preservar la integridad del medicamento, como control de temperatura, humedad, limpieza, señalización y rotación adecuada.
 
-          .col-xl.col-md-4.tarjeta.tarjeta--C04.p-5
+          .col-xl.col-lg-4.tarjeta.tarjeta--C04.p-5
             .row.justify-content-center.mb-3
               .col-lg-5.col-6
                 figure

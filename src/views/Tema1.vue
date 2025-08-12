@@ -293,12 +293,9 @@
     .row.justify-content-center.mb-5
       .col-lg-10.col-12
         .cajon.cajon.C02.color-secundario.p-4
-          p.mb-0(data-aos="fade-down") El negocio farmacéutico en Colombia constituye un eje fundamental del sistema de salud, enfocado en garantizar el acceso oportuno, seguro y racional a medicamentos y tecnologías en salud. Este sector involucra múltiples actores que participan en la producción, almacenamiento, distribución, dispensación y control de productos farmacéuticos, enmarcados en una normativa estricta orientada a proteger la salud pública y garantizar la calidad, eficacia y seguridad de los medicamentos.
+          p.mb-0(data-aos="fade-down") Además de estas normas específicas, los productos deben contar con un registro sanitario expedido por el INVIMA, que certifica que el medicamento ha sido evaluado y cumple con las exigencias legales para ser comercializado. Este registro garantiza la trazabilidad, el control de calidad por lote y la responsabilidad del fabricante frente a cualquier evento adverso.
 
     p.mb-0(data-aos="fade-down") El cumplimiento de la normativa de calidad no solo tiene un carácter técnico, sino también ético y legal. Un medicamento mal conservado, falsificado o fuera de especificaciones puede poner en riesgo la vida del paciente, generar resistencia farmacológica o provocar eventos adversos graves. Por ello, es indispensable que los auxiliares y técnicos en servicios farmacéuticos conozcan a profundidad estas normativas y las apliquen con rigurosidad en cada proceso.
-
-
-
 </template>
 
 <script>

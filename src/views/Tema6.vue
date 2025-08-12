@@ -24,7 +24,7 @@
 
     p.mb-5(data-aos="fade-down") Contenidos claves de una factura o remisión:
 
-    .row.cajon.BG04.align-items-center.pt-3.mb-5
+    .row.cajon.BG04.align-items-center.pt-lg-3.py-3.mb-5
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center
           .col-md-6.col-lg-4.mb-4.mb-md-0.d-lg-flex.d-none(data-aos="fade-right")
@@ -78,7 +78,7 @@
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col
         .tarjeta--container.row.mb-5
-          .col-xl.col-md-4.tarjeta.tarjeta--C02.p-5
+          .col-xl.col-lg-4.tarjeta.tarjeta--C02.p-5
             .row.justify-content-center.mb-3
               .col-lg-5.col-6
                 figure
@@ -86,7 +86,7 @@
               
             p.mb-0 Permite comparar lo recibido con lo facturado y detectar errores u omisiones desde el primer momento.
 
-          .col-xl.col-md-4.tarjeta.tarjeta--C03.p-5
+          .col-xl.col-lg-4.tarjeta.tarjeta--C03.p-5
             .row.justify-content-center.mb-3
               .col-lg-5.col-6
                 figure
@@ -94,7 +94,7 @@
               
             p.mb-0 Es la base para autorizar o rechazar la entrada de productos al sistema, en conjunto con la inspección técnica.
 
-          .col-xl.col-md-4.tarjeta.tarjeta--C04.p-5
+          .col-xl.col-lg-4.tarjeta.tarjeta--C04.p-5
             .row.justify-content-center.mb-3
               .col-lg-5.col-6
                 figure

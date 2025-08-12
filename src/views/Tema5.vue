@@ -99,7 +99,7 @@
 
     p.mb-5(data-aos="fade-down") Una vez verificada la documentación, se procede a la inspección física y técnica de los productos farmacéuticos. Esta etapa tiene como objetivo asegurar que los medicamentos o dispositivos médicos cumplen con los requisitos de identidad, integridad, condiciones de empaque, fecha de vencimiento y demás criterios que garanticen su calidad y seguridad antes de su ingreso al sistema de inventario.
 
-    .row.justify-content-center.px-md-5.px-4
+    .row.justify-content-center.px-lg-5
       .col-lg-11.col-12
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-7.col-12.order-lg-2.order-2
@@ -186,16 +186,16 @@
     p.mb-5(data-aos="fade-down") Para llevar a cabo una inspección física y técnica eficaz, es fundamental contar con herramientas que faciliten la verificación detallada de los productos y el registro de hallazgos. Estos instrumentos permiten asegurar la trazabilidad del proceso y respaldar las decisiones tomadas durante la recepción:
 
     .row.justify-content-center.mb-0(data-aos="flip-down")
-      .col-md-6.col-lg.m-2
+      .col-md-6.col-lg.m-2.mb-4
         .row
           .col-12.px-0
             figure
               img(src='@/assets/curso/temas/tema5/img11.svg', style="width: 100%" ,alt='Imagen decorativa').m-auto
           .col-12.bg-c1.h-100
             .p-4
-              p.mb-0 Checklist físico o digital con campos obligatorios de inspección.
+              p.mb-0 <em>Checklist</em> físico o digital con campos obligatorios de inspección.
 
-      .col-md-6.col-lg.m-2
+      .col-md-6.col-lg.m-2.mb-4
         .row
           .col-12.px-0
             figure
@@ -204,8 +204,8 @@
             .p-4
               p.mb-0 Lupa o linterna para revisar detalles en el rotulado.
     
-    .row.justify-content-center.mb-5(data-aos="flip-down")
-      .col-md-6.col-lg.m-2
+    .row.justify-content-center.mb-4(data-aos="flip-down")
+      .col-md-6.col-lg.m-2.mb-4
         .row
           .col-12.px-0
             figure
@@ -214,7 +214,7 @@
             .p-4
               p.mb-0 Termómetro digital o sensor para verificar temperatura en productos de cadena de frío.
 
-      .col-md-6.col-lg.m-2
+      .col-md-6.col-lg.m-2.mb-0
         .row
           .col-12.px-0
             figure

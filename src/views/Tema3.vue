@@ -125,7 +125,7 @@
         .p-2
           h3.mb-0.ms-3 Humedad
 
-    .row.justify-content-center.px-md-5.px-4
+    .row.justify-content-center.px-lg-5
       .col-lg-11.col-12
         .row.justify-content-center.mb-5(data-aos="flip-up")
           .col-lg-7.col-12.order-lg-2.order-2
