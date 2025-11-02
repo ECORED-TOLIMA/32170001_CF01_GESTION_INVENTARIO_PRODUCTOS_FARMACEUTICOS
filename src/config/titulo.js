@@ -1,1 +1,1 @@
-module.exports = 'ECOBASE_SENA'
+module.exports = 'Gestión y almacenamiento de productos farmacéuticos'
